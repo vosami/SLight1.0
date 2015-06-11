@@ -4,5 +4,28 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
-
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_smartlight"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btn_main_comm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@id/iv_logo"
+        android:text="대화식 설정"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@id/btn_main_comm"
+        android:text="테스트"
+        android:onClick="onClick"/>
 </RelativeLayout>

@@ -3,4 +3,28 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_comm">CommActivity</string>
+
+    <!--공통 사용-->
+    <string name="lt">(</string>
+    <string name="gt">)</string>
+
+    <!--CommActivity 의 Step-->
+    <string-array name="comm_activity_step">
+        <item>1단계 : S-Light 장치를 설정합니다.</item>
+        <item>2단계 : LED 를 선택합니다.</item>
+        <item>3단계 : 밝기를 선택합니다.</item>
+        <item>4단계 : 점멸 효과를 선택합니다.</item>
+    </string-array>
+
+    <!--Fragment_comm 에서 사용되는 Text-->
+    <string name="ble_set_title_current_device">현재 설정된 장치</string>
+    <string name="ble_set_name_current_device">Unknown</string>
+    <string name="ble_set_address_current_device">XX:XX:XX:XX:XX:XX</string>
+    <string name="ble_set_stop">중지</string>
+    <string name="ble_set_scan">검색</string>
+    <string name="ble_set_title_list">검색된 장치 목록</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
